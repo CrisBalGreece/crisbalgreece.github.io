@@ -1,0 +1,129 @@
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #030217 ;
+    
+  }
+
+  .tittle {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .last__name {
+    color: #807AE8;
+  }
+
+  .romName {
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .romNameColor {
+    color: #807AE8;
+  }
+
+   .webapp {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .webapp img {
+    width: 20px;
+    height: 20px;
+  }
+
+  
+
+  /* Download button */
+
+  .webapp a {
+    color: #807AE8 ;
+    text-decoration: none;
+ }
+
+
+  /* Mobile view */
+
+  @media only screen and (max-width: 600px) {
+
+    .tittle {
+      color: #ffffff;
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .webapp li {
+      text-align: justify;
+    }
+
+    .romName {
+      font-size: 23px;
+      text-align: center;
+    }
+
+    .webapp {
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .webapp li {
+      word-wrap: normal;
+      
+    }
+  }
+
+
+   /* Link */
+
+  .link {
+    color: #ffffff;
+    padding: 0 0 0.3em 0;
+    position: relative;
+  }
+  
+  .link:hover {
+    color: #807AE8;
+  }
+  
+  .link::before {
+    content: "";
+    display: inline;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0.3em;
+    background-color: #807AE8;
+    transition: width 0.2s ease-in;
+  }
+  
+  .link:hover::before,
+  .link:focus::before {
+    width: 100%;
+  }
+
+  .Backup {
+    color: #ffffff;
+  }
+
+  /* Footer */
+
+  .footer {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+ 
+
+  .footer__link {
+    font-size: 16px;
+    text-decoration: none;
+  }
